@@ -1,0 +1,20 @@
+.form {
+  border: 1px solid red;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  .form-label {
+    font-size: 18px;
+  }
+
+  .form-input {
+    height: 30px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+  }
+}
