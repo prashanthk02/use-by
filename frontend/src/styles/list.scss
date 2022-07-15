@@ -1,0 +1,30 @@
+.list {
+  border: 1px solid red;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  table, th, td {
+    padding: 6px;
+  }
+
+  th {
+    background-color: rgba(23, 144, 196, 0.75);
+    padding: 12px 0px;
+    width: 200px;
+  }
+
+  tr:nth-child(even) {
+    background-color: rgba(211, 211, 211, 0.9);
+  }
+
+  tr:nth-child(odd) {
+    background-color: rgba(211, 211, 211, 0.5);
+  }
+
+  tr:hover {
+    background-color: white;
+  }
+}
