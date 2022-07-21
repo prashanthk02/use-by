@@ -8,7 +8,7 @@ const Form = () => {
       <label className="form-label">Opened On: </label>
       <input type="date" className="form-input" />
       <label className="form-label">Use By: </label>
-      <input type="month" className="form-input" />
+      <input type="date" className="form-input" />
     </div>
   );
 }
