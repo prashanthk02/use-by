@@ -24,7 +24,7 @@ module.exports = (db) => {
   router.post('/', (req, res) => {
     const item = req.body;
 
-    addItem(list.user_id, list.productName, list.openedOn, list.useBy, db)
+    addItem(item.user_id, item.productName, item.openedOn, item.useBy, db)
     .then(result => {
       return res.json({ message: "Added" });
     })
